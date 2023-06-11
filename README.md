@@ -260,7 +260,7 @@ Valid coverage:       32 branches (0.05% of map)
 
 
 小节
-JQF 设置属性的方式，有点类似从反射或者set的方式，对object中的属性进行设置，但example 给的变量有点不太auto，
+JQF 设置属性的方式，有点类似从反射或者set的方式，对object中的属性进行设置，但example 给的变量有点不太auto.
 
 JQF 的 driver 编写流程:
 1. 初始化阶段:
@@ -276,9 +276,4 @@ JQF 的 driver 编写流程:
 		1. `public void testLeapYear(@From(CalendarGenerator.class) GregorianCalendar cal)` 
 		2. `public void testCompare(@Size(max=100) List<@From(CalendarGenerator.class) GregorianCalendar> cals)`
 	4. 断言与函数测试脚本编写
-
->突然，想到一点！
->在静态分析到动态分析的过程中，可以添加符号执行，对与控制流相关的object变量进行设置范围。
->从而加速 Fuzzing 部分
-
 ### 0x02 Fuzzing a Compiler

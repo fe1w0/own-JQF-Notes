@@ -1,0 +1,677 @@
+Saving new input (at run 1): input #0 of size 2032; reason = +count +cov +valid
+Saved - fuzz-results/corpus/id_000000 random +count +cov +valid
+Saving new input (at run 2): input #1 of size 2032; reason = +count
+Saved - fuzz-results/corpus/id_000001 src:000000,havoc:16 +count
+Saving new input (at run 12): input #2 of size 2092; reason = +count
+Saved - fuzz-results/corpus/id_000002 src:000000,havoc:44 +count
+Saving new input (at run 49): input #3 of size 2032; reason = +count +cov +valid
+Saved - fuzz-results/corpus/id_000003 src:000000,havoc:5 +count +cov +valid
+Saving new input (at run 101): input #4 of size 800; reason = +count
+Saved - fuzz-results/corpus/id_000004 src:000000,havoc:10 +count
+Saving new input (at run 119): input #5 of size 2008; reason = +count
+Saved - fuzz-results/corpus/id_000005 src:000000,havoc:15 +count
+Saving new input (at run 130): input #6 of size 108; reason = +count
+Saved - fuzz-results/corpus/id_000006 src:000000,havoc:6 +count
+Saving new input (at run 210): input #7 of size 488; reason = +count
+Saved - fuzz-results/corpus/id_000007 src:000000,havoc:10 +count
+Saving new input (at run 231): input #8 of size 2308; reason = +count
+Saved - fuzz-results/corpus/id_000008 src:000000,havoc:25 +count
+Saving new input (at run 341): input #9 of size 292; reason = +count
+Saved - fuzz-results/corpus/id_000009 src:000000,havoc:20 +count
+Saving new input (at run 353): input #10 of size 488; reason = +count
+Saved - fuzz-results/corpus/id_000010 src:000000,havoc:8 +count
+Saving new input (at run 372): input #11 of size 1900; reason = +count +cov +valid
+Saved - fuzz-results/corpus/id_000011 src:000000,havoc:31 +count +cov +valid
+Saving new input (at run 437): input #12 of size 1066; reason = +count
+Saved - fuzz-results/corpus/id_000012 src:000000,havoc:31 +count
+Saving new input (at run 887): input #13 of size 137; reason = +count
+Saved - fuzz-results/corpus/id_000013 src:000002,havoc:14 +count
+Saving new input (at run 1010): input #14 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000014 src:000003,havoc:44 +count
+Saving new input (at run 1214): input #15 of size 108; reason = +count
+Saved - fuzz-results/corpus/id_000015 src:000003,havoc:24 +count
+Found crash: class java.lang.AssertionError - java.util.GregorianCalendar[time=-62132992066059,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Knox_IN",offset=-21600000,dstSavings=3600000,useDaylight=true,transitions=153,lastRule=java.util.SimpleTimeZone[id=America/Knox_IN,offset=-21600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=3,startMonth=2,startDay=8,startDayOfWeek=1,startTime=7200000,startTimeMode=0,endMode=3,endMonth=10,endDay=1,endDayOfWeek=1,endTime=7200000,endTimeMode=0]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=32,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=32,SECOND=13,MILLISECOND=941,ZONE_OFFSET=-21600000,DST_OFFSET=0] should be before java.util.GregorianCalendar[time=-62133049666059,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Pacific/Guam",offset=36000000,dstSavings=0,useDaylight=false,transitions=21,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=32,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=9,HOUR_OF_DAY=21,MINUTE=32,SECOND=13,MILLISECOND=941,ZONE_OFFSET=36000000,DST_OFFSET=0]
+Saved - fuzz-results/failures/id_000000 src:000003,havoc:14 +crash
+Saving new input (at run 1732): input #16 of size 2032; reason = +count
+Saved - fuzz-results/corpus/id_000016 src:000003,havoc:14 +count
+Saving new input (at run 1940): input #17 of size 200; reason = +count
+Saved - fuzz-results/corpus/id_000017 src:000006,havoc:26 +count
+Saving new input (at run 1950): input #18 of size 84; reason = +count
+Saved - fuzz-results/corpus/id_000018 src:000006,havoc:22 +count
+Saving new input (at run 2480): input #19 of size 1900; reason = +count +cov +valid
+Saved - fuzz-results/corpus/id_000019 src:000011,havoc:33 +count +cov +valid
+Saving new input (at run 3014): input #20 of size 50; reason = +count
+Saved - fuzz-results/corpus/id_000020 src:000013,havoc:37 +count
+Saving new input (at run 3041): input #21 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000021 src:000014,havoc:2 +count
+Saving new input (at run 3047): input #22 of size 1816; reason = +count
+Saved - fuzz-results/corpus/id_000022 src:000014,havoc:15 +count
+Saving new input (at run 3641): input #23 of size 1900; reason = +count
+Saved - fuzz-results/corpus/id_000023 src:000019,havoc:19 +count
+Saving new input (at run 4223): input #24 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000024 src:000021,havoc:2 +count
+Saving new input (at run 4231): input #25 of size 1828; reason = +count +cov +valid
+Saved - fuzz-results/corpus/id_000025 src:000021,havoc:2 +count +cov +valid
+Saving new input (at run 4270): input #26 of size 1816; reason = +count
+Saved - fuzz-results/corpus/id_000026 src:000022,havoc:4 +count
+Saving new input (at run 4407): input #27 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000027 src:000025,havoc:11 +count
+Saving new input (at run 5352): input #28 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000028 src:000027,havoc:14 +count
+Saving new input (at run 5387): input #29 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000029 src:000028,havoc:15 +count
+Saving new input (at run 5398): input #30 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000030 src:000028,havoc:11 +count
+Saving new input (at run 5444): input #31 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000031 src:000029,havoc:6 +count
+Saving new input (at run 5520): input #32 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000032 src:000031,havoc:10 +count
+Saving new input (at run 5539): input #33 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000033 src:000031,havoc:2 +count
+Saving new input (at run 5622): input #34 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000034 src:000033,havoc:20 +count
+
+# Cycle 1 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Total 32 branches covered
+
+
+
+
+Saving new input (at run 5691): input #35 of size 2080; reason = +count
+Saved - fuzz-results/corpus/id_000035 src:000000,havoc:35 +count
+
+# Cycle 2 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Total 32 branches covered
+
+
+
+
+Saving new input (at run 13564): input #36 of size 21; reason = +count
+Saved - fuzz-results/corpus/id_000036 src:000011,havoc:19 +count
+Saving new input (at run 14928): input #37 of size 1936; reason = +count +cov +valid
+Saved - fuzz-results/corpus/id_000037 src:000023,havoc:9 +count +cov +valid
+Saving new input (at run 16160): input #38 of size 1828; reason = +count
+Saved - fuzz-results/corpus/id_000038 src:000033,havoc:8 +count
+
+# Cycle 3 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+Saving new input (at run 22805): input #39 of size 1936; reason = +count
+Saved - fuzz-results/corpus/id_000039 src:000037,havoc:13 +count
+
+# Cycle 4 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+Saving new input (at run 24902): input #40 of size 1996; reason = +count
+Saved - fuzz-results/corpus/id_000040 src:000006,havoc:4 +count
+
+# Cycle 5 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+
+# Cycle 6 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+
+# Cycle 7 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+
+# Cycle 8 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+
+# Cycle 9 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+
+# Cycle 10 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+
+# Cycle 11 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Total 33 branches covered
+
+
+
+
+Saving new input (at run 66990): input #41 of size 2404; reason = +count
+Saved - fuzz-results/corpus/id_000041 src:000002,havoc:2 +count
+Saving new input (at run 71814): input #42 of size 1936; reason = +count +cov +valid
+Saved - fuzz-results/corpus/id_000042 src:000037,havoc:6 +count +cov +valid
+Saving new input (at run 72499): input #43 of size 1936; reason = +count
+Saved - fuzz-results/corpus/id_000043 src:000042,havoc:7 +count
+
+# Cycle 12 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 13 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 14 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 15 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 16 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 17 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 18 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 19 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 20 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 21 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 22 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 23 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 24 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 25 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 26 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 27 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 28 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 29 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 30 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 31 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 32 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 33 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 34 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 35 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 36 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 37 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 38 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 39 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
+
+# Cycle 40 completed.
+Here is a list of favored inputs:
+Input 0 is responsible for 23 branches
+Input 3 is responsible for 2 branches
+Input 11 is responsible for 2 branches
+Input 19 is responsible for 4 branches
+Input 25 is responsible for 1 branches
+Input 37 is responsible for 1 branches
+Input 42 is responsible for 1 branches
+Total 34 branches covered
+
+
+
+
